@@ -13,6 +13,7 @@
 		634D551D27E75EEB003FE035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D551B27E75EEB003FE035 /* Main.storyboard */; };
 		634D551F27E75EEC003FE035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634D551E27E75EEC003FE035 /* Assets.xcassets */; };
 		634D552227E75EEC003FE035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D552027E75EEC003FE035 /* LaunchScreen.storyboard */; };
+		634D552A27E7652F003FE035 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D552927E7652F003FE035 /* PokemonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		634D551E27E75EEC003FE035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634D552127E75EEC003FE035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634D552327E75EEC003FE035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634D552927E7652F003FE035 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				634D551E27E75EEC003FE035 /* Assets.xcassets */,
 				634D552027E75EEC003FE035 /* LaunchScreen.storyboard */,
 				634D552327E75EEC003FE035 /* Info.plist */,
+				634D552927E7652F003FE035 /* PokemonTableViewCell.swift */,
 			);
 			path = week2;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				634D551A27E75EEB003FE035 /* ViewController.swift in Sources */,
+				634D552A27E7652F003FE035 /* PokemonTableViewCell.swift in Sources */,
 				634D551627E75EEB003FE035 /* AppDelegate.swift in Sources */,
 				634D551827E75EEB003FE035 /* SceneDelegate.swift in Sources */,
 			);
